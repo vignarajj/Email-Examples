@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<TextView android:id="@+id/emt1"
+    android:text="Enter the Email ID"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FAFAFA"/>
+    <EditText 
+        android:id="@+id/eme1"
+        android:hint="Enter the mail id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        />
+<TextView android:id="@+id/emt2"
+    android:text="Enter the Subject"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FAFAFA"/>
+<EditText android:id="@+id/eme2"
+        android:hint="Enter the Subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        />
+<TextView android:id="@+id/emt3"
+    android:text="Enter the Message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FAFAFA"/>
+<EditText 
+    android:id="@+id/eme3"
+        android:hint="Enter the Message"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:inputType="textMultiLine"
+        />
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <Button android:id="@+id/ebt1"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:text="SEND"/>
+    <Button android:id="@+id/ebt2"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:text="RESET"/>
+</LinearLayout>
+</LinearLayout>
